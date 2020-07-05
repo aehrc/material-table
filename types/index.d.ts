@@ -236,7 +236,8 @@ export interface Options {
   padding?: ('default' | 'dense');
   paging?: boolean;
   grouping?: boolean;
-  overflowY?: ('visible' | 'hidden' | 'scroll' | 'auto' | 'initial' | 'inherit');
+  groupTitle?: (groupData: any) => any;
+  overflowY?: "visible" | "hidden" | "scroll" | "auto" | "initial" | "inherit";
   pageSize?: number;
   pageSizeOptions?: number[];
   paginationType?: ('normal' | 'stepped');
